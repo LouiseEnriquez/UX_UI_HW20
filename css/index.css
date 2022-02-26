@@ -41,11 +41,20 @@ body, html{
     padding-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+    justify-content: left;
     }
 
    
-    
-    
+    .cardcarouselle{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    /*margin-left:75px;
+    padding: 75px;
+    }
+    .lebody{
+    padding-left: 75px;*/
+    }
     #myBtn {
         display: none; /* Hidden by default */
         position: fixed; /* Fixed/sticky position */
